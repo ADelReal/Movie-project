@@ -1,4 +1,4 @@
-#import 
+#import "Movies_Ratings.csv"
 movies <- read.csv(file.choose())
 
 library(ggplot2)
