@@ -1,3 +1,6 @@
+#import 
+movies <- read.csv(file.choose())
+
 library(ggplot2)
 
 ggplot(data = movies, aes(x = CriticRating, y= AudienceRating, 
