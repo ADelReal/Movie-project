@@ -16,6 +16,4 @@ istall.package('ggplot2')
 #activates ggplot2
 library(ggplot2)
 
-ggplot(data = movies, aes(x = CriticRating, y= AudienceRating, 
-                          color = Genre, size = BudgetMillions)) + 
-  geom_point()
+ggplot(data = movies, aes(x = CriticRating, y= AudienceRating, color = Genre, size = BudgetMillions)) + geom_point()
